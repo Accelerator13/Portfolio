@@ -99,7 +99,7 @@ body {
     padding: 1rem;
     border-radius: 8px;
     background: var(--light-color);
-    transition: transform 0.4s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .skill-item:hover {
