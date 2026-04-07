@@ -95,7 +95,6 @@ body {
 .skill-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 1rem;
     border-radius: 8px;
     background: var(--light-color);
