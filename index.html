@@ -1,99 +1,239 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Alexandre Pereira - Desenvolvedor em formação">
-    <link rel="stylesheet" href="styles/style.css">
+    <meta name="description" content="Portfólio de Alexandre Pereira de Paula - Desenvolvedor Full Stack em formação">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Alexandre Pereira | Portfólio</title>
+    
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Alexandre Pereira | Dev Full Stack</title>
 </head>
-
 <body>
-    <header class="header">
-        <div class="container">
-            <h1 class="nome">Alexandre Pereira de Paula</h1>
-            <img class="foto-perfil" src="imagens/Imagem do projeto.jpg" alt="Foto de Alexandre Pereira">
-        </div>
-    </header>
 
-    <main class="container">
-        <section class="section apresentacao">
-            <h2><i class="fas fa-user"></i> Apresentação</h2>
-            <div class="content">
-                <p>Olá, eu sou o Alexandre, atualmente trabalho na online como vendedor de tecnologia. Desde criança sou apaixonado por tecnologia, sempre gostei de jogos e animes. Sempre fui curioso - desmontava computadores sem conhecimento prévio e depois pesquisava como montá-los corretamente.</p>
-                <p>Hoje tenho mais experiência com cursos na área de computação e montagem, e atualmente sou acadêmico de TI pela Unintese (segundo semestre).</p>
-        </section>
+    <!-- NAV -->
+    <nav>
+        <div class="nav-logo"><span>A</span>lexandre<span>.</span>dev</div>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
-        <section class="section objetivo">
-            <h2><i class="fas fa-bullseye"></i> Objetivo</h2>
-            <div class="content">
-                <p>Meu objetivo é me tornar um programador altamente qualificado com uma carreira sólida em Tecnologia da Informação. Busco contribuir com o crescimento das empresas, ajudando a construir sistemas eficientes e me mantendo atualizado com as mais recentes tecnologias do mercado.</p>
-                <p>Acredito na aprendizagem contínua e na adaptação constante conforme a tecnologia avança.</p>
-            </div>
-        </section>
-
-        <section class="section habilidades">
-            <h2><i class="fas fa-laptop-code"></i> Habilidades e Projetos</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <img src="imagens/montagem.png" alt="Montagem">
-                    <span>Montagem de computadores</span>
-                </div>
-                <div class="skill-item">
-                    <img src="imagens/exel.jpg" alt="Excel">
-                    <span>Excel</span>
-                </div>
-                <div class="skill-item">
-                    <img src="imagens/word.png" alt="Word">
-                    <span>Word</span>
-                </div>
-                <div class="skill-item">
-                    <img src="imagens/html.png" alt="HTML">
-                    <span>HTML</span>
-                </div>
-                <div class="skill-item">
-                    <img src="imagens/css.png" alt="CSS">
-                    <span>CSS</span>
-                </div>
-                <div class="skill-item">
-                    <a href="https://github.com/Gestao-de-Performance/site-desenvolvido-em-aula-Accelerator13.git" target="_blank">
-                        <img src="imagens/projeto.png" alt="Projeto">
-                        <span>Projeto 1</span>
-                        <div clas="skill-item">
-                            <a href="https://github.com/Accelerator13/calculadora-simples" target="_blank">
-                                <span>Projeto 2</span>
-                            </a>
-                        </div>
+    <!-- HERO -->
+    <div class="hero">
+        <div class="hero-inner">
+            <div>
+                <div class="hero-badge">Disponível para oportunidades</div>
+                <h1>
+                    Alexandre<br>
+                    <span class="name-highlight">Pereira de Paula</span>
+                </h1>
+                <p class="hero-sub">// Dev Full Stack em formação &nbsp;·&nbsp; Uberlândia, MG</p>
+                <p class="hero-desc">
+                    Apaixonado por tecnologia desde criança, hoje acadêmico de TI pela Unintese. 
+                    Construindo soluções web modernas com HTML, CSS e JavaScript — sempre aprendendo, sempre evoluindo.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projetos" class="btn btn-primary">
+                        <i class="fas fa-code"></i> Ver projetos
+                    </a>
+                    <a href="#contato" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Entrar em contato
                     </a>
                 </div>
             </div>
-        </section>
-    </main>
+            <div class="hero-photo-wrap">
+            <img src="perfil.jpg" alt="Foto de Alexandre Pereira" class="hero-photo">
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <footer class="footer">
-        <div class="container">
-            <h3><i class="fas fa-share-alt"></i> Redes sociais e contatos</h3>
+    <!-- SOBRE -->
+    <section id="sobre">
+        <p class="section-label fade-up">01. sobre mim</p>
+        <h2 class="fade-up">Quem <span class="dim">sou eu</span></h2>
+        <div class="divider fade-up"></div>
+
+        <div class="sobre-grid">
+            <div class="sobre-card fade-up">
+                <h3><i class="fas fa-user-astronaut"></i> Apresentação</h3>
+                <p>
+                    Olá! Sou o Alexandre — vendedor de tecnologia na Online e acadêmico de TI 
+                    pela Unintese (2º semestre). Desde criança sou curioso: desmontava computadores 
+                    sem saber montá-los de volta, pesquisava, aprendia. Esse espírito ainda me move.
+                </p>
+                <p style="margin-top: 1rem;">
+                    Fã de jogos e animes, encontrei no código uma forma de criar mundos. 
+                    Hoje aplico essa paixão em projetos reais.
+                </p>
+            </div>
+            <div class="sobre-card fade-up">
+                <h3><i class="fas fa-bullseye"></i> Objetivo</h3>
+                <p>
+                    Me tornar um desenvolvedor Full Stack altamente qualificado, contribuindo 
+                    com o crescimento de empresas através de sistemas eficientes e bem arquitetados.
+                </p>
+                <p style="margin-top: 1rem;">
+                    Acredito na aprendizagem contínua — a tecnologia nunca para, e eu também não.
+                </p>
+            </div>
+        </div>
+
+        <div class="stats-row">
+            <div class="stat-box fade-up">
+                <span class="num">2°</span>
+                <span class="lbl">Semestre TI</span>
+            </div>
+            <div class="stat-box fade-up">
+                <span class="num">5+</span>
+                <span class="lbl">Tecnologias</span>
+            </div>
+            <div class="stat-box fade-up">
+                <span class="num">∞</span>
+                <span class="lbl">Curiosidade</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+        <p class="section-label fade-up">02. habilidades</p>
+        <h2 class="fade-up">Stack <span class="dim">& ferramentas</span></h2>
+        <div class="divider fade-up"></div>
+
+        <div class="skills-grid">
+            <div class="skill-card fade-up">
+                <span class="skill-icon">🌐</span>
+                <div class="skill-name">HTML</div>
+                <div class="skill-level">Estrutura Web</div>
+            </div>
+            <div class="skill-card fade-up">
+                <span class="skill-icon">🎨</span>
+                <div class="skill-name">CSS</div>
+                <div class="skill-level">Estilização</div>
+            </div>
+            <div class="skill-card fade-up">
+                <span class="skill-icon">⚡</span>
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-level">Intermediate</div>
+            </div>
+             <div class="skill-card fade-up">
+                <span class="skill-icon">🐍</span>
+                <div class="skill-name">Python</div>
+                <div class="skill-level">Beginner</div>
+            </div>
+            <div class="skill-card fade-up">
+                <span class="skill-icon">🖥️</span>
+                <div class="skill-name">Montagem PC</div>
+                <div class="skill-level">Hardware</div>
+            </div>
+            <div class="skill-card fade-up">
+                <span class="skill-icon">📊</span>
+                <div class="skill-name">Excel</div>
+                <div class="skill-level">Planilhas</div>
+            </div>
+            <div class="skill-card fade-up">
+                <span class="skill-icon">📝</span>
+                <div class="skill-name">Word</div>
+                <div class="skill-level">Documentação</div>
+            </div>
+            <div class="skill-card fade-up">
+                <span class="skill-icon">🔧</span>
+                <div class="skill-name">Git & GitHub</div>
+                <div class="skill-level">Controle de versão</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos">
+        <p class="section-label fade-up">03. projetos</p>
+        <h2 class="fade-up">O que <span class="dim">já construí</span></h2>
+        <div class="divider fade-up"></div>
+
+        <div class="projects-grid">
+            <a class="project-card fade-up" href="https://github.com/Gestao-de-Performance/site-desenvolvido-em-aula-Accelerator13" target="_blank" rel="noopener">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-globe"></i></div>
+                    <i class="fas fa-arrow-up-right-from-square project-link-icon"></i>
+                </div>
+                <h3>Site Desenvolvido em Aula</h3>
+                <p>Projeto web desenvolvido durante as aulas, aplicando conceitos de HTML e CSS na prática.</p>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                </div>
+            </a>
+
+            <a class="project-card fade-up" href="https://github.com/Accelerator13/calculadora-simples" target="_blank" rel="noopener">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-calculator"></i></div>
+                    <i class="fas fa-arrow-up-right-from-square project-link-icon"></i>
+                </div>
+                <h3>Calculadora Simples</h3>
+                <p>Calculadora funcional construída com JavaScript, praticando lógica de programação e manipulação do DOM.</p>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </a>
+
+            <div class="project-card fade-up" style="border-style: dashed; cursor: default;">
+                <div class="project-header">
+                    <div class="project-icon" style="background: rgba(255,255,255,0.03);"><i class="fas fa-plus" style="color: var(--muted);"></i></div>
+                </div>
+                <h3 style="color: var(--muted);">Em breve...</h3>
+                <p>Novos projetos sendo desenvolvidos. Acompanhe meu GitHub para ficar por dentro!</p>
+                <div class="project-tags">
+                    <span class="tag" style="opacity:0.5;">?</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO / FOOTER -->
+    <footer id="contato">
+        <div class="footer-inner">
+            <p class="section-label" style="margin-bottom: 1rem;">04. contato</p>
+            <h2 style="margin-bottom: 1.5rem;">Vamos <span class="dim">conversar?</span></h2>
+            <p>
+                Aberto a oportunidades, freelas e projetos colaborativos. 
+                Me mande uma mensagem em qualquer uma das redes abaixo!
+            </p>
             <div class="social-links">
-                <a href="https://www.instagram.com/accelerator_131/" target="_blank" aria-label="Instagram">
+                <a href="https://www.instagram.com/accelerator_131/" target="_blank" aria-label="Instagram" class="social-link">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://github.com/Accelerator13" target="_blank" aria-label="GitHub">
+                <a href="https://github.com/Accelerator13" target="_blank" aria-label="GitHub" class="social-link">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/alexandre-pereira-3a41b81a2" target="_blank" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/alexandre-pereira-3a41b81a2" target="_blank" aria-label="LinkedIn" class="social-link">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="https://contate.me/5534998206404" target="_blank" aria-label="WhatsApp">
+                <a href="https://contate.me/5534998206404" target="_blank" aria-label="WhatsApp" class="social-link">
                     <i class="fab fa-whatsapp"></i>
                 </a>
-                <a href="mailto:alexandregrande782@gmail.com" aria-label="E-mail">
+                <a href="mailto:alexandregrande782@gmail.com" aria-label="E-mail" class="social-link">
                     <i class="fas fa-envelope"></i>
                 </a>
             </div>
+            <p class="footer-copy">© 2026 · Alexandre Pereira de Paula · Feito com 💜 e muito café</p>
         </div>
     </footer>
+
+    <!-- JS Externo -->
+    <script src="script.js"></script>
 </body>
 </html>
