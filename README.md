@@ -2,7 +2,7 @@
 
 Este é o meu portfólio profissional, desenvolvido para demonstrar minhas habilidades em desenvolvimento Full Stack, com foco em tecnologias modernas e performance.
 
-[https://portfolio-alexandre059813.netlify.app]
+[https://portfolio-alexande051198.netlify.app]
 
 ---
 
